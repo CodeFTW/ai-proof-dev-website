@@ -53,12 +53,16 @@ export const Home = () => (
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
-          ✔︎ Text and video content, yes, you can choose the best way to learn.
+          ✔︎ Text and video content, yes, we have contents in both formats.
         </p>
-        <p>✔︎ Group mentorship calls, yes, you can ask questions live.</p>
+        <p>✔︎ Live group mentorship calls, yes, you can ask questions live.</p>
         <p>
           ✔︎ Real use cases to implement, yes, the only way to learn is coding
           real stuff.
+        </p>
+        <p>
+          ✔︎ Private channel on Discord, yes, you can ask questions anytime and
+          get help from other members.
         </p>
       </h2>
     </div>
@@ -192,28 +196,41 @@ export const Home = () => (
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
           You are free to buy whenever you want. You are also free not to buy :)
-        </p>{" "}
+        </p>
         <p>
-          The benefit of buying right now is the 75% discount. It will be gone once we start to publish the content.
+          The benefit of buying right now is the 75% discount. It will be gone
+          once we start to publish the content.
+        </p>
+      </h2>
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
+        ∙ Are the live group calls recorded?
+      </h3>
+      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+        <p>
+          Yes, they are. So if you can't join you can watch it later.
+        </p>
+        <p>
+          Also, you can send questions in advance so we can answer your questions even if you can't join.
         </p>
       </h2>
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4 mt-4">
-        ∙ I can't buy now, how can I receive the updates?
+        ∙ I can't buy now, how can I receive updates?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
           Filipe's newsletter will be the main channel to communicate with you
-          as you are not part of AI Proof Dev.
+          as you are not part of AI Proof Dev community on Discord.
         </p>
         <p>
-            <a
-                className="text-lime-500 font-normal"
-                href="https://news.lemeno.io/en/filipe-nevola"
-                target="_blank"
-                rel="noreferrer"
-            >
-                Subscribe now
-            </a>.
+          <a
+            className="text-lime-500 font-normal"
+            href="https://news.lemeno.io/en/filipe-nevola"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Subscribe now
+          </a>
+          .
         </p>
       </h2>
     </div>
