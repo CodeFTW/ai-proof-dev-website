@@ -186,11 +186,11 @@ export const Home = () => (
       </h2>
     </div>
 
-    <div className="flex w-full flex-col justify-between mt-3 grow">
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
+    <div className="flex w-full flex-col justify-between mt-3 grow gap-4">
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
         FAQ
       </h3>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
         ∙ Why should I buy now?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
@@ -202,7 +202,7 @@ export const Home = () => (
           once we start to publish the content.
         </p>
       </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
         ∙ Are the live group calls recorded?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
@@ -213,7 +213,7 @@ export const Home = () => (
           Also, you can send questions in advance so we can answer your questions even if you can't join.
         </p>
       </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4 mt-4">
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
         ∙ I can't buy now, how can I receive updates?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
