@@ -268,6 +268,14 @@ export const Home = () => (
           </a>
           . Especially the second list.
         </p>
+        <p>
+          Follow our Twitter{" "}
+          <a className="text-lime-500 font-normal" href="https://twitter.com/aiproofdev"
+             target="_blank"
+             rel="noreferrer">
+            @AIProofDev
+          </a>.
+        </p>
       </h2>
     </div>
   </div>
