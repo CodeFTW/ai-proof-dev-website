@@ -9,8 +9,7 @@ export const Home = () => (
       <div className="flex w-full flex-col justify-between mt-3 grow">
         <h2 className="text-2xl text-tertiary md:text-3xl gap-4 flex-col flex md:ml-0">
           <p>
-            Don't be afraid of AI. The best Developers (aka 1% Devs) are not
-            going to be replaced by AI.
+            Don't be afraid of AI. The best Developers (aka 1% Devs) will not be replaced by AI.
           </p>
           <p>What you should do instead? Become the 1%. How?👇🏻</p>
         </h2>
