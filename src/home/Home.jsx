@@ -9,7 +9,8 @@ export const Home = () => (
       <div className="flex w-full flex-col justify-between mt-3 grow">
         <h2 className="text-2xl text-tertiary md:text-3xl gap-4 flex-col flex md:ml-0">
           <p>
-            Don't be afraid of AI. The best Developers (aka 1% Devs) will not be replaced by AI.
+            Don't be afraid of AI. The best Developers (aka 1% Devs) will not be
+            replaced by AI.
           </p>
           <p>What you should do instead? Become the 1%. How?👇🏻</p>
         </h2>
@@ -312,6 +313,17 @@ export const Home = () => (
         <p>
           Also, you can send questions in advance so we can answer your
           questions even if you can't join.
+        </p>
+      </h2>
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
+        ∙ Is client work done inside this project?
+      </h3>
+      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+        <p>
+          No, absolutely no client work is done here. We don't even provide members with access to client code.
+        </p>
+        <p>
+          We will guide you to work on real problems, in real-life situations, but not on our client projects. We keep these two things separate.
         </p>
       </h2>
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
