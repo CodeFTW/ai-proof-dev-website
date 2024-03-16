@@ -8,7 +8,10 @@ export const Home = () => (
       </div>
       <div className="flex w-full flex-col justify-between mt-3 grow">
         <h2 className="text-2xl text-tertiary md:text-3xl gap-4 flex-col flex md:ml-0">
-          <p>Don't be afraid of AI. The best Developers (aka 1% Devs) are not going to be replaced by AI.</p>
+          <p>
+            Don't be afraid of AI. The best Developers (aka 1% Devs) are not
+            going to be replaced by AI.
+          </p>
           <p>What you should do instead? Become the 1%. How?👇🏻</p>
         </h2>
       </div>
@@ -262,6 +265,35 @@ export const Home = () => (
         </p>
       </h2>
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
+        ∙ Is formal education in Computer Science required?
+      </h3>
+      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+        <p>
+          No, it's not required, but knowledge equivalent to a Computer Science
+          degree would be very helpful.
+        </p>
+      </h2>
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
+        ∙ Should beginner developers join?
+      </h3>
+      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+        <p>
+          <span>
+            It's entirely up to you. However, we won't be teaching the basics of
+            coding. For beginners, we recommend our separate project called{" "}
+            <a
+              className="text-lime-500 font-normal"
+              href="https://codeftw.dev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CodeFTW.dev
+            </a>
+            . It's completely free, but most of the content is in Portuguese.
+          </span>
+        </p>
+      </h2>
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
         ∙ Why buy now?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
@@ -294,19 +326,19 @@ export const Home = () => (
           <span>
             If you are not a paid member but want to keep getting news:{" "}
             <a
-                className="text-lime-500 font-normal"
-                href="https://news.lemeno.io/en/filipe-nevola"
-                target="_blank"
-                rel="noreferrer"
+              className="text-lime-500 font-normal"
+              href="https://news.lemeno.io/en/filipe-nevola"
+              target="_blank"
+              rel="noreferrer"
             >
               Subscribe
             </a>{" "}
             to Filipe's newsletter and follow us at Twitter{" "}
             <a
-                className="text-lime-500 font-normal"
-                href="https://twitter.com/aiproofdev"
-                target="_blank"
-                rel="noreferrer"
+              className="text-lime-500 font-normal"
+              href="https://twitter.com/aiproofdev"
+              target="_blank"
+              rel="noreferrer"
             >
               @AIProofDev
             </a>
@@ -319,15 +351,26 @@ export const Home = () => (
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
-          Don't buy if you are not sure. Email aiproofdev@quave.dev with your questions. Be very clear and specific if you want to get an answer. Poor writing is a sign of poor thinking. Review your email before hitting send.
+          Don't buy if you are not sure. Email aiproofdev@quave.dev with your
+          questions. Be very clear and specific if you want to get an answer.
+          Poor writing is a sign of poor thinking. Review your email before
+          hitting send.
         </p>
         <p>
-          <span>Keep in mind that emails can go to Spam as we probably never received an email from you. If we don't answer in 24 hours, send a DM to Filipe on his <a
-            className="text-lime-500 font-normal"
-            href="https://twitter.com/FilipeNevola"
-            target="_blank"
-            rel="noreferrer"
-          >Twitter</a>.</span>
+          <span>
+            Keep in mind that emails can go to Spam as we probably never
+            received an email from you. If we don't answer in 24 hours, send a
+            DM to Filipe on his{" "}
+            <a
+              className="text-lime-500 font-normal"
+              href="https://twitter.com/FilipeNevola"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter
+            </a>
+            .
+          </span>
         </p>
       </h2>
     </div>
