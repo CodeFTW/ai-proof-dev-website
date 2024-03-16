@@ -46,10 +46,9 @@ export const Content = () => (
         <p>• DNS, A Record, and CNAME understanding</p>
         <p>• Closures as an alternative to classes</p>
         <p>• Functional programming and operations: filter, map, reduce</p>
-        <p>• Advanced bash, zsh, and oh-my-zsh scripting</p>
+        <p>• Bash scripting (zsh, oh-my-zsh)</p>
         <p>
-          • Advanced git operations: git rebase, git tag, git bisect, git reset
-          --hard
+          • Git operations: git rebase, git tag, git bisect, git reset
         </p>
         <p>• Jenkins (for CI/CD)</p>
         <p>• WebSocket communication</p>
@@ -64,7 +63,7 @@ export const Content = () => (
         </p>
         <p>• GraphQL: Deep understanding of Queries and Mutations</p>
         <p>
-          • React advanced topics: React as a function, React Hooks, React Error
+          • React: React as a function, React Hooks, React Error
           boundary tactics, React Suspense.
         </p>
         <p>• Deploy tactics on AWS and zCloud.ws</p>
@@ -75,17 +74,17 @@ export const Content = () => (
           performance testing
         </p>
         <p>
-          • End-to-end Automated Testing: Cypress; Unit testing: Jest, Snapshots
+          • End-to-end Automated Testing: Playwright; Unit testing: Jest, Snapshots
         </p>
         <p>
-          • Advanced usage of Logs: Loggly, Datadog, Monitors, Prometheus,
+          • Logs and Monitoring: Datadog, Monitors, Prometheus,
           Alerts Manager, Grafana
         </p>
         <p>• Transactional Email: postmark</p>
         <p>• Storage solutions: AWS S3</p>
-        <p>• Payment Gateways</p>
+        <p>• Payment Gateways: Stripe</p>
         <p>
-          • Authentication methods: Password, OAuth (Facebook, Google, Apple
+          • Authentication methods: Password, Passwordless, OAuth (Facebook, Google, Apple
           Auth)
         </p>
       </h2>
