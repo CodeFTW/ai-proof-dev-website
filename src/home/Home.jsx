@@ -8,38 +8,56 @@ export const Home = () => (
       </div>
       <div className="flex w-full flex-col justify-between mt-3 grow">
         <h2 className="text-2xl text-tertiary md:text-3xl gap-4 flex-col flex md:ml-0">
-          <p>Don't be afraid of AI. The Top 1% Developers are here to stay.</p>
-          <p>What you should do instead? Become one of them 👇🏻</p>
+          <p>Don't be afraid of AI. The best Developers (aka 1% Devs) are not going to be replaced by AI.</p>
+          <p>What you should do instead? Become the 1%. How?👇🏻</p>
         </h2>
       </div>
     </div>
 
     <div className="flex w-full flex-col justify-between mt-3 grow">
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
-        What we do?
+        What we do for you?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
-        We teach everything we believe and practice in software development. We
-        deliver code to production every day for more than 15 years.
+        <span>
+          We teach you everything we believe and practice in software
+          development. We deliver code to production every day for more than 15
+          years and we are part of a profitable software development{" "}
+          <a
+            className="text-lime-500 font-normal"
+            href="https://quave.dev"
+            target="_blank"
+            rel="noreferrer"
+          >
+            agency
+          </a>{" "}
+          founded in 2013.
+        </span>
       </h2>
     </div>
 
     <div className="flex w-full flex-col justify-between mt-3 grow">
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
-        How are we different? 🤔
+        Why you should give us money?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
-          ✔︎ Learn with real-world projects, yes, the content is based on a
-          real project.
+          ✔︎ We have skin in the game: our company newcomers are trained now
+          with the same content as you. The quality of this content will define
+          the future of our company.
         </p>
         <p>
-          ✔︎ ︎Battle-tested, yes, everything we teach was used in real life
-          projects successfully.
+          ✔︎ We have battle-tested everything, all the topics are used in real
+          life projects successfully in different contexts. New content will be
+          added weekly, forever.
         </p>
         <p>
-          ✔︎ Don't follow the herd, yes, we won't teach you clean code and
-          buzzwords.
+          ✔︎ The Infinite Game: We don't follow the herd, we don't teach the
+          latest trend or quick ways for you to learn a framework. We need
+          better developers so we decided to train them ourselves with
+          technologies to deliver results for profitable companies worldwide
+          across Web and Mobile applications. Your goal should be to get better
+          every single day, forever.
         </p>
       </h2>
     </div>
@@ -50,35 +68,66 @@ export const Home = () => (
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
-          ✔︎ Text and video content, yes, we have contents in both formats.
-        </p>
-        <p>✔︎ Live group mentorship calls, yes, you can ask questions live.</p>
-        <p>
-          ✔︎ Real use cases to implement, yes, the only way to learn is coding
-          real stuff.
+          ✔︎ We publish content in video and text. You watch or read and then
+          code to absorb everything we taught.
         </p>
         <p>
-          ✔︎ Private channel on Discord, yes, you can ask questions anytime and
-          get help from other members.
+          ✔︎ We host live group mentorship calls. You come prepared to ask
+          questions.
+        </p>
+        <p>
+          ✔︎ We suggest real use cases for you to implement. You implement
+          everything we suggest and more.
+        </p>
+        <p>
+          ✔︎ We review your code. You will show us your code from the content
+          and also real use cases.
+        </p>
+        <p>
+          ✔︎ We are on a private Discord with you. You ask questions anytime
+          and get help from other members and ourselves.
+        </p>
+        <p>
+          ✔︎ We hire the best. You may receive an offer to{" "}
+          <a
+            className="text-lime-500 font-normal"
+            href="https://github.com/quavedev/join"
+            target="_blank"
+            rel="noreferrer"
+          >
+            work with us
+          </a>{" "}
+          if you are great.
+        </p>
+        <p>
+          ✔︎ We don't babysit. You need to work hard, really hard and be
+          self-motivated.
         </p>
       </h2>
     </div>
 
     <div className="flex w-full flex-col justify-between mt-3 grow">
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
-        What warranties do I have that I will become one of the top 1%?
+        What warranties do you have of becoming the top 1%?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+        <p>No warranties at all! We will treat you like an adult.</p>
         <p>
-          No warranties at all! We will treat you as an adult. You can ask for a
-          refund in 7 days tho.
+          AI Proof Dev is not about us, it's about you. We will give you the
+          map, the compass, and the tools. You will have to walk the path. There
+          is no shortcuts. To be a top 1% developer you will have to work hard,
+          every single day, forever.
+        </p>
+        <p className="font-semibold">
+          If you are lazy, if you are not self-motivated, if you are not willing
+          to work hard, don't buy.
         </p>
       </h2>
     </div>
 
     <div className="flex w-full flex-col justify-between mt-3 grow">
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
-        Who's going to produce the content?
+        Who's the mentor?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
@@ -197,13 +246,9 @@ export const Home = () => (
         FAQ
       </h3>
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Where can I find the content?
+        ∙ Where is the table of contents?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
-        <p>
-          We publish it weekly (starting on March 25th 2024) on our platform
-          only for paid members.
-        </p>
         <p>
           You can see a list of what we plan to publish in our{" "}
           <a className="text-lime-500 font-normal" href="/content">
@@ -211,9 +256,13 @@ export const Home = () => (
           </a>{" "}
           page.
         </p>
+        <p>
+          We publish new content weekly (starting on March 25th 2024) on our
+          closed platform only for paid members.
+        </p>
       </h2>
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Why should I buy now?
+        ∙ Why buy now?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
@@ -235,23 +284,50 @@ export const Home = () => (
         </p>
       </h2>
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ I can't buy now, how can I receive updates?
+        ∙ How to receive updates?
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
-          Filipe's newsletter will be the main channel to communicate with you
-          as you are not part of AI Proof Dev community on Discord.
+          If you are a paid member you will get the news on our private Discord.
         </p>
         <p>
-          <a
+          <span>
+            If you are not a paid member but want to keep getting news:{" "}
+            <a
+                className="text-lime-500 font-normal"
+                href="https://news.lemeno.io/en/filipe-nevola"
+                target="_blank"
+                rel="noreferrer"
+            >
+              Subscribe
+            </a>{" "}
+            to Filipe's newsletter and follow us at Twitter{" "}
+            <a
+                className="text-lime-500 font-normal"
+                href="https://twitter.com/aiproofdev"
+                target="_blank"
+                rel="noreferrer"
+            >
+              @AIProofDev
+            </a>
+            .
+          </span>
+        </p>
+      </h2>
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
+        ∙ Not sure yet?
+      </h3>
+      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+        <p>
+          Don't buy if you are not sure. Email aiproofdev@quave.dev with your questions. Be very clear and specific if you want to get an answer. Poor writing is a sign of poor thinking. Review your email before hitting send.
+        </p>
+        <p>
+          <span>Keep in mind that emails can go to Spam as we probably never received an email from you. If we don't answer in 24 hours, send a DM to Filipe on his <a
             className="text-lime-500 font-normal"
-            href="https://news.lemeno.io/en/filipe-nevola"
+            href="https://twitter.com/FilipeNevola"
             target="_blank"
             rel="noreferrer"
-          >
-            Subscribe now
-          </a>
-          .
+          >Twitter</a>.</span>
         </p>
       </h2>
     </div>
@@ -270,11 +346,15 @@ export const Home = () => (
         </p>
         <p>
           Follow our Twitter{" "}
-          <a className="text-lime-500 font-normal" href="https://twitter.com/aiproofdev"
-             target="_blank"
-             rel="noreferrer">
+          <a
+            className="text-lime-500 font-normal"
+            href="https://twitter.com/aiproofdev"
+            target="_blank"
+            rel="noreferrer"
+          >
             @AIProofDev
-          </a>.
+          </a>
+          .
         </p>
       </h2>
     </div>

@@ -119,6 +119,7 @@ export const Content = () => (
         <p>• Don't mutate objects</p>
         <p>• Don't use indexes or anonymous</p>
         <p>• Don't use for and while</p>
+        <p>• Don't do full project rewrites</p>
         <p>• Don't read books</p>
         <p>• Always study</p>
         <p>• Always ready to learn</p>
@@ -126,11 +127,11 @@ export const Content = () => (
         <p>• Net worth</p>
         <p>• Track time </p>
         <p>• Effort vs benefit</p>
-        <p>• Real examples 1</p>
-        <p>• Real examples 2</p>
-        <p>• Real examples 3</p>
-        <p>• Real examples 4</p>
-        <p>• Real examples ...</p>
+        <p>• Real example 1</p>
+        <p>• Real example 2</p>
+        <p>• Real example 3</p>
+        <p>• Real example 4</p>
+        <p>• Real example ...</p>
       </h2>
     </div>
     <div className="flex w-full flex-col justify-between mt-3 grow gap-4">
