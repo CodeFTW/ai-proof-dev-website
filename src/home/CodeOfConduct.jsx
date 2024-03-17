@@ -4,204 +4,96 @@ export const CodeOfConduct = () => (
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
         Code of Conduct
       </h3>
-      <p>
-        AI Proof Dev and its members
-        <a
-          href="https://contributor-covenant.org/version/2/0/code_of_conduct"
-          target="_blank"
-          className="text-lime-500 font-normal"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          Contributor Covenant v2.0
-        </a>{" "}
-        as their code of conduct. The full text is included below in English,
-        and
-        <a
-          href="https://www.contributor-covenant.org/translations"
-          target="_blank"
-          className="text-lime-500 font-normal"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          translations
-        </a>{" "}
-        are available on the Contributor Covenant website.
-      </p>
       <section>
-        <h1 className="text-tertiary text-2xl my-4" id="contributor-covenant-code-of-conduct">
-          Contributor Covenant Code of Conduct
-        </h1>
-        <h2 className="text-tertiary text-xl my-4" id="our-pledge">Our Pledge</h2>
-        <p>
-          We as members, contributors, and leaders pledge to make participation
-          in our community a harassment-free experience for everyone, regardless
-          of age, body size, visible or invisible disability, ethnicity, sex
-          characteristics, gender identity and expression, level of experience,
-          education, socio-economic status, nationality, personal appearance,
-          race, religion, or sexual identity and orientation.
-        </p>
-        <p>
-          We pledge to act and interact in ways that contribute to an open,
-          welcoming, diverse, inclusive, and healthy community.
-        </p>
-        <h2 className="text-tertiary text-xl my-4" id="our-standards">Our Standards</h2>
+        <h2 className="text-tertiary text-xl my-4" id="our-standards">
+          Our Standards
+        </h2>
         <p>
           Examples of behavior that contributes to a positive environment for
-          our community include:
+          our project include:
         </p>
-        <ul>
+        <ul className="list-disc">
           <li>Demonstrating empathy and kindness toward other people</li>
           <li>
             Being respectful of differing opinions, viewpoints, and experiences
           </li>
-          <li>Giving and gracefully accepting constructive feedback</li>
+          <li>Giving technical and direct feedback</li>
           <li>
             Accepting responsibility and apologizing to those affected by our
             mistakes, and learning from the experience
           </li>
           <li>
             Focusing on what is best not just for us as individuals, but for the
-            overall community
+            overall project
           </li>
         </ul>
         <p>Examples of unacceptable behavior include:</p>
-        <ul>
+        <ul className="list-disc">
           <li>
             The use of sexualized language or imagery, and sexual attention or
             advances of any kind
           </li>
+          <li>Trolling, insulting or offensive comments</li>
           <li>
-            Trolling, insulting or derogatory comments, and personal or
-            political attacks
-          </li>
-          <li>Public or private harassment</li>
-          <li>
-            Publishing others’ private information, such as a physical or email
-            address, without their explicit permission
-          </li>
-          <li>
-            Other conduct which could reasonably be considered inappropriate in
-            a professional setting
+            Publishing any private information shared inside the project
+            activities without explicit permission
           </li>
         </ul>
-        <h2 className="text-tertiary text-xl my-4" id="enforcement-responsibilities">Enforcement Responsibilities</h2>
+        <h2
+          className="text-tertiary text-xl my-4"
+          id="enforcement-responsibilities"
+        >
+          Mentors
+        </h2>
         <p>
-          Community leaders are responsible for clarifying and enforcing our
-          standards of acceptable behavior and will take appropriate and fair
-          corrective action in response to any behavior that they deem
-          inappropriate, threatening, offensive, or harmful.
+          Mentors are responsible for clarifying and enforcing our standards of
+          acceptable behavior and will take appropriate and fair corrective
+          action in response to any behavior that they deem inappropriate.
         </p>
         <p>
-          Community leaders have the right and responsibility to remove, edit,
-          or reject comments, commits, code, wiki edits, issues, and other
+          Mentors remove, edit, or reject comments, commits, code, and other
           contributions that are not aligned to this Code of Conduct, and will
           communicate reasons for moderation decisions when appropriate.
         </p>
-        <h2 className="text-tertiary text-xl my-4" id="scope">Scope</h2>
+        <h2 className="text-tertiary text-xl my-4" id="scope">
+          Scope
+        </h2>
         <p>
-          This Code of Conduct applies within all community spaces, and also
-          applies when an individual is officially representing the community in
-          public spaces. Examples of representing our community include using an
-          official email address, posting via an official social media account,
-          or acting as an appointed representative at an online or offline
-          event.
+          This Code of Conduct applies within all project spaces, and also
+          applies when an individual is officially representing the project in
+          public spaces.
         </p>
-        <h2 className="text-tertiary text-xl my-4" id="enforcement">Enforcement</h2>
+        <h2 className="text-tertiary text-xl my-4" id="enforcement">
+          Enforcement
+        </h2>
         <p>
-          Instances of abusive, harassing, or otherwise unacceptable behavior
-          may be reported to the community leaders responsible for enforcement
-          at [INSERT CONTACT METHOD]. All complaints will be reviewed and
-          investigated promptly and fairly.
+          Instances of unacceptable behavior may be reported to the mentors for
+          enforcement at aiproofdev@quave.ve. All complaints will be reviewed
+          and feedback will be provided.
         </p>
-        <p>
-          All community leaders are obligated to respect the privacy and
-          security of the reporter of any incident.
-        </p>
-        <h2 className="text-tertiary text-xl my-4" id="enforcement-guidelines">Enforcement Guidelines</h2>
-        <p>
-          Community leaders will follow these Community Impact Guidelines in
-          determining the consequences for any action they deem in violation of
-          this Code of Conduct:
-        </p>
+        <h2 className="text-tertiary text-xl my-4" id="enforcement-guidelines">
+          Actions
+        </h2>
+        <p>Mentors will perform these actions when necessary:</p>
         <h3 id="1-correction">1. Correction</h3>
         <p>
-          <strong>Community Impact</strong>: Use of inappropriate language or
-          other behavior deemed unprofessional or unwelcome in the community.
+          <strong>Mistakes</strong>: Communicate the author and fix the possible
+          results. With a clear warning about the behavior.
         </p>
+        <h3 id="4-permanent-ban">2. Permanent Ban</h3>
         <p>
-          <strong>Consequence</strong>: A private, written warning from
-          community leaders, providing clarity around the nature of the
-          violation and an explanation of why the behavior was inappropriate. A
-          public apology may be requested.
+          <strong>Recurrence</strong>: Demonstrating a pattern of violation of
+          standards will lead to Permanent Ban from the project.
         </p>
-        <h3 id="2-warning">2. Warning</h3>
+        <h2 className="text-tertiary text-xl my-4" id="attribution">
+          Attribution
+        </h2>
         <p>
-          <strong>Community Impact</strong>: A violation through a single
-          incident or series of actions.
-        </p>
-        <p>
-          <strong>Consequence</strong>: A warning with consequences for
-          continued behavior. No interaction with the people involved, including
-          unsolicited interaction with those enforcing the Code of Conduct, for
-          a specified period of time. This includes avoiding interactions in
-          community spaces as well as external channels like social media.
-          Violating these terms may lead to a temporary or permanent ban.
-        </p>
-        <h3 id="3-temporary-ban">3. Temporary Ban</h3>
-        <p>
-          <strong>Community Impact</strong>: A serious violation of community
-          standards, including sustained inappropriate behavior.
-        </p>
-        <p>
-          <strong>Consequence</strong>: A temporary ban from any sort of
-          interaction or public communication with the community for a specified
-          period of time. No public or private interaction with the people
-          involved, including unsolicited interaction with those enforcing the
-          Code of Conduct, is allowed during this period. Violating these terms
-          may lead to a permanent ban.
-        </p>
-        <h3 id="4-permanent-ban">4. Permanent Ban</h3>
-        <p>
-          <strong>Community Impact</strong>: Demonstrating a pattern of
-          violation of community standards, including sustained inappropriate
-          behavior, harassment of an individual, or aggression toward or
-          disparagement of classes of individuals.
-        </p>
-        <p>
-          <strong>Consequence</strong>: A permanent ban from any sort of public
-          interaction within the community.
-        </p>
-        <h2 className="text-tertiary text-xl my-4" id="attribution">Attribution</h2>
-        <p>
-          This Code of Conduct is adapted from the{" "}
-          <a href="https://www.contributor-covenant.org">
+          This Code of Conduct was inspired by{" "}
+          <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">
             Contributor Covenant
           </a>
-          , version 2.0, available at
-          <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct.html">
-            https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
-          </a>
-          .
-        </p>
-        <p>
-          Community Impact Guidelines were inspired by
-          <a href="https://github.com/mozilla/diversity">
-            Mozilla’s code of conduct enforcement ladder
-          </a>
-          .
-        </p>
-        <p>
-          For answers to common questions about this code of conduct, see the
-          FAQ at
-          <a href="https://www.contributor-covenant.org/faq">
-            https://www.contributor-covenant.org/faq
-          </a>
-          . Translations are available at{" "}
-          <a href="https://www.contributor-covenant.org/translations">
-            https://www.contributor-covenant.org/translations
-          </a>
-          .
+          , version 2.0.
         </p>
       </section>
     </div>
