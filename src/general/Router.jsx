@@ -5,6 +5,7 @@ import { Home } from "../home/Home.jsx";
 import { NotFound } from "./NotFound.jsx";
 import { Layout } from "./Layout.jsx";
 import {Content} from "../home/Content.jsx";
+import {CodeOfConduct} from "../home/CodeOfConduct.jsx";
 
 export const Router = () => (
   <Routes>
@@ -21,6 +22,14 @@ export const Router = () => (
       element={
         <Layout>
           <Content />
+        </Layout>
+      }
+    />
+    <Route
+      path={RoutePaths.CODE_OF_CONDUCT}
+      element={
+        <Layout>
+          <CodeOfConduct />
         </Layout>
       }
     />

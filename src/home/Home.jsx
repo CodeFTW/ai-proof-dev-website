@@ -1,3 +1,24 @@
+import { useState } from "react";
+
+const ItemWithTitle = ({ title, children, collapsable }) => {
+  const [isCollapsed, setIsCollapsed] = useState(collapsable);
+  return (
+    <>
+      <h3
+        className={`text-tertiary text-2xl gap-4 flex-col flex md:ml-0 ${collapsable ? "cursor-pointer" : ""}`}
+        onClick={() => collapsable && setIsCollapsed(!isCollapsed)}
+      >
+        {title}
+        {collapsable && !isCollapsed && " ^"}
+      </h3>
+      {!isCollapsed && (
+        <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+          {children}
+        </h2>
+      )}
+    </>
+  );
+};
 export const Home = () => (
   <div className="flex flex-col gap-4 md:gap-10">
     <div className="mt-3 flex w-full flex-col justify-center md:justify-start md:flex-row md:items-center">
@@ -248,10 +269,7 @@ export const Home = () => (
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
         FAQ
       </h3>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Where is the table of contents?
-      </h3>
-      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+      <ItemWithTitle title="∙ Where is the table of contents?" collapsable>
         <p>
           You can see a list of what we plan to publish in our{" "}
           <a className="text-lime-500 font-normal" href="/content">
@@ -263,20 +281,17 @@ export const Home = () => (
           We publish new content weekly (starting on March 25th 2024) on our
           closed platform only for paid members.
         </p>
-      </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Is formal education in Computer Science required?
-      </h3>
-      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+      </ItemWithTitle>
+      <ItemWithTitle
+        title="∙ Is formal education in Computer Science required?"
+        collapsable
+      >
         <p>
           No, it's not required, but knowledge equivalent to a Computer Science
           degree would be very helpful.
         </p>
-      </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Should beginner developers join?
-      </h3>
-      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+      </ItemWithTitle>
+      <ItemWithTitle title="∙ Should beginner developers join?" collapsable>
         <p>
           <span>
             It's entirely up to you. However, we won't be teaching the basics of
@@ -292,11 +307,8 @@ export const Home = () => (
             . It's completely free, but most of the content is in Portuguese.
           </span>
         </p>
-      </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Why buy now?
-      </h3>
-      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+      </ItemWithTitle>
+      <ItemWithTitle title="∙ Why buy now?" collapsable>
         <p>
           You are free to buy whenever you want. You are also free not to buy :)
         </p>
@@ -304,63 +316,53 @@ export const Home = () => (
           The benefit of buying right now is the 75% discount. It will be gone
           once we start to publish the content.
         </p>
-      </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Are the live group calls recorded?
-      </h3>
-      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+      </ItemWithTitle>
+      <ItemWithTitle title="∙ Are the live group calls recorded?" collapsable>
         <p>Yes, they are. So if you can't join you can watch it later.</p>
         <p>
           Also, you can send questions in advance so we can answer your
           questions even if you can't join.
         </p>
-      </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Is client work done inside this project?
-      </h3>
-      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+      </ItemWithTitle>
+      <ItemWithTitle
+        title="∙ How many hours a week of live interaction?"
+        collapsable
+      >
         <p>
-          No, absolutely no client work is done here. We don't even provide members with access to client code.
+          Expect at least one hour a week, but we anticipate that will be more.
+        </p>
+        <p>The schedule will be adjusted according to members availability.</p>
+      </ItemWithTitle>
+      <ItemWithTitle
+        title="∙ Is client work done inside this project?"
+        collapsable
+      >
+        <p>
+          No, absolutely no client work is done here. We don't even provide
+          members with access to client code.
         </p>
         <p>
-          We will guide you to work on real problems, in real-life situations, but not on our client projects. We keep these two things separate.
+          We will guide you to work on real problems, in real-life situations,
+          but not on our client projects. We keep these two things separate.
         </p>
-      </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ How to receive updates?
-      </h3>
-      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+      </ItemWithTitle>
+
+      <ItemWithTitle title="∙ What happens after the payment?" collapsable>
         <p>
-          If you are a paid member you will get the news on our private Discord.
+          After you make the payment, we will email you to understand your
+          expectations and learn more about you.
+        </p>
+        <p>We aim to maximize the chances of success for both parties.</p>
+        <p>
+          Typically, a quick exchange of one or two emails is enough, so don't
+          worry.
         </p>
         <p>
-          <span>
-            If you are not a paid member but want to keep getting news:{" "}
-            <a
-              className="text-lime-500 font-normal"
-              href="https://news.lemeno.io/en/filipe-nevola"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Subscribe
-            </a>{" "}
-            to Filipe's newsletter and follow us at Twitter{" "}
-            <a
-              className="text-lime-500 font-normal"
-              href="https://twitter.com/aiproofdev"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @AIProofDev
-            </a>
-            .
-          </span>
+          If, for any reason, we decide not to proceed, a full refund will be
+          issued immediately.
         </p>
-      </h2>
-      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        ∙ Not sure yet?
-      </h3>
-      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+      </ItemWithTitle>
+      <ItemWithTitle title="∙ Not sure yet?" collapsable>
         <p>
           Don't buy if you are not sure. Email aiproofdev@quave.dev with your
           questions. Be very clear and specific if you want to get an answer.
@@ -383,9 +385,37 @@ export const Home = () => (
             .
           </span>
         </p>
-      </h2>
+      </ItemWithTitle>
     </div>
 
+    <ItemWithTitle title="∙ How to receive updates?" collapsable>
+      <p>
+        If you are a paid member you will get the news on our private Discord.
+      </p>
+      <p>
+        <span>
+          If you are not a paid member but want to keep getting news:{" "}
+          <a
+            className="text-lime-500 font-normal"
+            href="https://news.lemeno.io/en/filipe-nevola"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Subscribe
+          </a>{" "}
+          to Filipe's newsletter and follow us at Twitter{" "}
+          <a
+            className="text-lime-500 font-normal"
+            href="https://twitter.com/aiproofdev"
+            target="_blank"
+            rel="noreferrer"
+          >
+            @AIProofDev
+          </a>
+          .
+        </span>
+      </p>
+    </ItemWithTitle>
     <div className="flex w-full flex-col justify-between mt-3 grow">
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
         Still here?
