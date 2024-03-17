@@ -128,6 +128,9 @@ export const Content = () => (
         <p>• Net worth</p>
         <p>• Track time </p>
         <p>• Effort vs benefit</p>
+        <p>• Compounding effects</p>
+        <p>• The Infinite Game</p>
+        <p>• One eye on the fish, another on the cat</p>
         <p>• Real example 1</p>
         <p>• Real example 2</p>
         <p>• Real example 3</p>
