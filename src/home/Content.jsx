@@ -1,3 +1,6 @@
+import { RoutePaths } from "../general/RoutePaths.jsx";
+import {Link} from "react-router-dom";
+
 export const Content = () => (
   <div className="flex flex-col gap-4 md:gap-10">
     <div className="flex w-full flex-col justify-between mt-3 grow">
@@ -47,9 +50,7 @@ export const Content = () => (
         <p>• Closures as an alternative to classes</p>
         <p>• Functional programming and operations: filter, map, reduce</p>
         <p>• Bash scripting (zsh, oh-my-zsh)</p>
-        <p>
-          • Git operations: git rebase, git tag, git bisect, git reset
-        </p>
+        <p>• Git operations: git rebase, git tag, git bisect, git reset</p>
         <p>• Jenkins (for CI/CD)</p>
         <p>• WebSocket communication</p>
         <p>• Single Page Applications vs Server Side Rendering</p>
@@ -63,8 +64,8 @@ export const Content = () => (
         </p>
         <p>• GraphQL: Deep understanding of Queries and Mutations</p>
         <p>
-          • React: React as a function, React Hooks, React Error
-          boundary tactics, React Suspense.
+          • React: React as a function, React Hooks, React Error boundary
+          tactics, React Suspense.
         </p>
         <p>• Deploy tactics on AWS and zCloud.ws</p>
         <p>• SSL encryption techniques: Let's Encrypt, Wildcard</p>
@@ -74,18 +75,19 @@ export const Content = () => (
           performance testing
         </p>
         <p>
-          • End-to-end Automated Testing: Playwright; Unit testing: Jest, Snapshots
+          • End-to-end Automated Testing: Playwright; Unit testing: Jest,
+          Snapshots
         </p>
         <p>
-          • Logs and Monitoring: Datadog, Monitors, Prometheus,
-          Alerts Manager, Grafana
+          • Logs and Monitoring: Datadog, Monitors, Prometheus, Alerts Manager,
+          Grafana
         </p>
         <p>• Transactional Email: postmark</p>
         <p>• Storage solutions: AWS S3</p>
         <p>• Payment Gateways: Stripe</p>
         <p>
-          • Authentication methods: Password, Passwordless, OAuth (Facebook, Google, Apple
-          Auth)
+          • Authentication methods: Password, Passwordless, OAuth (Facebook,
+          Google, Apple Auth)
         </p>
       </h2>
     </div>
@@ -141,9 +143,9 @@ export const Content = () => (
         <p>Is it too much? Too confusing? Too boring? Too hard? Too easy?</p>
         <p>
           Go back to our{" "}
-          <a className="text-lime-500 font-normal" href="/">
+          <Link className="text-lime-500 font-normal" to={RoutePaths.HOME}>
             home page
-          </a>{" "}
+          </Link>{" "}
           and join our community.
         </p>
       </h2>

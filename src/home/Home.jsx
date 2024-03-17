@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { RoutePaths } from "../general/RoutePaths.jsx";
 
 const ItemWithTitle = ({ title, children, collapsable }) => {
   const [isCollapsed, setIsCollapsed] = useState(collapsable);
@@ -272,9 +274,9 @@ export const Home = () => (
       <ItemWithTitle title="∙ Where is the table of contents?" collapsable>
         <p>
           You can see a list of what we plan to publish in our{" "}
-          <a className="text-lime-500 font-normal" href="/content">
+          <Link className="text-lime-500 font-normal" to={RoutePaths.CONTENT}>
             Content
-          </a>{" "}
+          </Link>{" "}
           page.
         </p>
         <p>
@@ -386,36 +388,59 @@ export const Home = () => (
           </span>
         </p>
       </ItemWithTitle>
+      <ItemWithTitle title="∙ How to receive updates?" collapsable>
+        <p>
+          If you are a paid member you will get the news on our private Discord.
+        </p>
+        <p>
+          <span>
+            If you are not a paid member but want to keep getting news:{" "}
+            <a
+              className="text-lime-500 font-normal"
+              href="https://news.lemeno.io/en/filipe-nevola"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Subscribe
+            </a>{" "}
+            to Filipe's newsletter and follow us at Twitter{" "}
+            <a
+              className="text-lime-500 font-normal"
+              href="https://twitter.com/aiproofdev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @AIProofDev
+            </a>
+            .
+          </span>
+        </p>
+      </ItemWithTitle>
     </div>
 
-    <ItemWithTitle title="∙ How to receive updates?" collapsable>
-      <p>
-        If you are a paid member you will get the news on our private Discord.
-      </p>
-      <p>
-        <span>
-          If you are not a paid member but want to keep getting news:{" "}
-          <a
-            className="text-lime-500 font-normal"
-            href="https://news.lemeno.io/en/filipe-nevola"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Subscribe
-          </a>{" "}
-          to Filipe's newsletter and follow us at Twitter{" "}
-          <a
-            className="text-lime-500 font-normal"
-            href="https://twitter.com/aiproofdev"
-            target="_blank"
-            rel="noreferrer"
-          >
-            @AIProofDev
-          </a>
-          .
-        </span>
-      </p>
-    </ItemWithTitle>
+    <div className="flex w-full flex-col justify-between mt-3 grow gap-4">
+      <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
+        Required Reading (for Members)
+      </h3>
+      <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
+        <p>
+          - <Link className="text-lime-500 font-normal" to={RoutePaths.TERMS_OF_USE}>
+            Terms of Use
+          </Link>
+        </p>
+        <p>
+          - <Link className="text-lime-500 font-normal" to={RoutePaths.CODE_OF_CONDUCT}>
+            Code of Conduct
+          </Link>
+        </p>
+        <p>
+          - <Link className="text-lime-500 font-normal" to={RoutePaths.CONTENT}>
+            Content
+          </Link>
+        </p>
+      </h2>
+    </div>
+
     <div className="flex w-full flex-col justify-between mt-3 grow">
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0 mb-4">
         Still here?
@@ -423,9 +448,9 @@ export const Home = () => (
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
           Check our{" "}
-          <a className="text-lime-500 font-normal" href="/content">
+          <Link className="text-lime-500 font-normal" to={RoutePaths.CONTENT}>
             Content
-          </a>
+          </Link>
           . Especially the second list.
         </p>
         <p>

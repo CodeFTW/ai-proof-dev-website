@@ -6,6 +6,7 @@ import { NotFound } from "./NotFound.jsx";
 import { Layout } from "./Layout.jsx";
 import {Content} from "../home/Content.jsx";
 import {CodeOfConduct} from "../home/CodeOfConduct.jsx";
+import {TermsOfUse} from "../home/TermsOfUse.jsx";
 
 export const Router = () => (
   <Routes>
@@ -30,6 +31,14 @@ export const Router = () => (
       element={
         <Layout>
           <CodeOfConduct />
+        </Layout>
+      }
+    />
+    <Route
+      path={RoutePaths.TERMS_OF_USE}
+      element={
+        <Layout>
+          <TermsOfUse />
         </Layout>
       }
     />
