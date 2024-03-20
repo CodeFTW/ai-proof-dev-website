@@ -7,6 +7,7 @@ import { Layout } from "./Layout.jsx";
 import {Content} from "../home/Content.jsx";
 import {CodeOfConduct} from "../home/CodeOfConduct.jsx";
 import {TermsOfUse} from "../home/TermsOfUse.jsx";
+import {About} from "../home/About.jsx";
 
 export const Router = () => (
   <Routes>
@@ -39,6 +40,14 @@ export const Router = () => (
       element={
         <Layout>
           <TermsOfUse />
+        </Layout>
+      }
+    />
+    <Route
+      path={RoutePaths.ABOUT}
+      element={
+        <Layout>
+          <About />
         </Layout>
       }
     />

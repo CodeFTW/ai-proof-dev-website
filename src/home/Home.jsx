@@ -406,7 +406,7 @@ export const Home = () => (
             to Filipe's newsletter and follow us at Twitter{" "}
             <a
               className="text-lime-500 font-normal"
-              href="https://twitter.com/aiproofdev"
+              href="https://twitter.com/aiProofDev"
               target="_blank"
               rel="noreferrer"
             >
@@ -420,22 +420,28 @@ export const Home = () => (
 
     <div className="flex w-full flex-col justify-between mt-3 grow gap-4">
       <h3 className="text-tertiary text-2xl gap-4 flex-col flex md:ml-0">
-        Required Reading (for Members)
+        More links
       </h3>
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <p>
-          - <Link className="text-lime-500 font-normal" to={RoutePaths.TERMS_OF_USE}>
-            Terms of Use
+          -{" "}
+          <Link className="text-lime-500 font-normal" to={RoutePaths.ABOUT}>
+            About
           </Link>
         </p>
         <p>
-          - <Link className="text-lime-500 font-normal" to={RoutePaths.CODE_OF_CONDUCT}>
-            Code of Conduct
-          </Link>
-        </p>
-        <p>
-          - <Link className="text-lime-500 font-normal" to={RoutePaths.CONTENT}>
+          -{" "}
+          <Link className="text-lime-500 font-normal" to={RoutePaths.CONTENT}>
             Content
+          </Link>
+        </p>
+        <p>
+          -{" "}
+          <Link
+            className="text-lime-500 font-normal"
+            to={RoutePaths.TERMS_OF_USE}
+          >
+            Terms of Use
           </Link>
         </p>
       </h2>
