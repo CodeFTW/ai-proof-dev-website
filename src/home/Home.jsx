@@ -350,18 +350,19 @@ export const Home = () => (
       </ItemWithTitle>
 
       <ItemWithTitle title="∙ What happens after the payment?" collapsable>
+        <p>You will get your invite to our Portal with all the content and also to our private Discord server.</p>
         <p>
-          After you make the payment, we will email you to understand your
+          We may also email you to understand your
           expectations and learn more about you.
         </p>
         <p>We aim to maximize the chances of success for both parties.</p>
         <p>
           Typically, a quick exchange of one or two emails is enough, so don't
-          worry.
+          worry about this process. In many cases it's not even necessary as you will join our Discord and introduce yourself there. 
         </p>
         <p>
           If, for any reason, we decide not to proceed, a full refund will be
-          issued immediately.
+          issued immediately but this is very rare. 
         </p>
       </ItemWithTitle>
       <ItemWithTitle title="∙ Not sure yet?" collapsable>
