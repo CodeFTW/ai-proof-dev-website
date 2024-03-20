@@ -16,7 +16,7 @@ export const TermsOfUse = () => (
           </li>
           <li>
             You permit us to publish publicly any content you participate during
-            the project, which includes code, videos with you and everything
+            the program, which includes code, videos with you and everything
             else.
           </li>
           <li>You will join the live activities as much as possible</li>
@@ -42,7 +42,7 @@ export const TermsOfUse = () => (
         </h2>
         <p>
           Mentors will stop any discussions or questions that are out of the
-          scope of our project.
+          scope of our program.
         </p>
         <p>We need to do this to respect everyone's times.</p>
         <h2 className="text-tertiary text-xl my-4" id="enforcement">

@@ -10,7 +10,7 @@ export const CodeOfConduct = () => (
         </h2>
         <p>
           Examples of behavior that contributes to a positive environment for
-          our project include:
+          our program include:
         </p>
         <ul className="list-disc">
           <li>Demonstrating empathy and kindness toward other people</li>
@@ -24,7 +24,7 @@ export const CodeOfConduct = () => (
           </li>
           <li>
             Focusing on what is best not just for us as individuals, but for the
-            overall project
+            overall program
           </li>
         </ul>
         <p>Examples of unacceptable behavior include:</p>
@@ -35,7 +35,7 @@ export const CodeOfConduct = () => (
           </li>
           <li>Trolling, insulting or offensive comments</li>
           <li>
-            Publishing any private information shared inside the project
+            Publishing any private information shared inside the program
             activities without explicit permission
           </li>
         </ul>
@@ -59,8 +59,8 @@ export const CodeOfConduct = () => (
           Scope
         </h2>
         <p>
-          This Code of Conduct applies within all project spaces, and also
-          applies when an individual is officially representing the project in
+          This Code of Conduct applies within all program spaces, and also
+          applies when an individual is officially representing the program in
           public spaces.
         </p>
         <h2 className="text-tertiary text-xl my-4" id="enforcement">
@@ -83,7 +83,7 @@ export const CodeOfConduct = () => (
         <h3 id="4-permanent-ban">2. Permanent Ban</h3>
         <p>
           <strong>Recurrence</strong>: Demonstrating a pattern of violation of
-          standards will lead to Permanent Ban from the project.
+          standards will lead to Permanent Ban from the program.
         </p>
         <h2 className="text-tertiary text-xl my-4" id="attribution">
           Attribution

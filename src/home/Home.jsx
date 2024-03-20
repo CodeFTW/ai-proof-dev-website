@@ -336,7 +336,7 @@ export const Home = () => (
         <p>The schedule will be adjusted according to members availability.</p>
       </ItemWithTitle>
       <ItemWithTitle
-        title="∙ Is client work done inside this project?"
+        title="∙ Is client work done inside this program?"
         collapsable
       >
         <p>
@@ -358,11 +358,11 @@ export const Home = () => (
         <p>We aim to maximize the chances of success for both parties.</p>
         <p>
           Typically, a quick exchange of one or two emails is enough, so don't
-          worry about this process. In many cases it's not even necessary as you will join our Discord and introduce yourself there. 
+          worry about this process. In many cases it's not even necessary as you will join our Discord and introduce yourself there.
         </p>
         <p>
           If, for any reason, we decide not to proceed, a full refund will be
-          issued immediately but this is very rare. 
+          issued immediately but this is very rare.
         </p>
       </ItemWithTitle>
       <ItemWithTitle title="∙ Not sure yet?" collapsable>

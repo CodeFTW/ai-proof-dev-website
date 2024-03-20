@@ -5,7 +5,7 @@ export const About = () => (
         About
       </h3>
       <div className="flex w-full gap-4 flex-col">
-        <p>AI Proof Dev is a long-term education platform for developers.</p>
+        <p>AI Proof Dev is a long-term education program for developers.</p>
         <p>
           We believe the best developers will not be replaced by AI. Our goal is
           to elevate our members to the top 1% of developers.
@@ -25,7 +25,7 @@ export const About = () => (
           provide a private Discord server as well.
         </p>
         <p>
-          This program is affiliated with Quave Education projects. Learn more
+          This program is part of Quave Education. Learn more
           at{" "}
           <a
             className="text-lime-500 font-normal"
