@@ -47,8 +47,9 @@ export const Home = () => (
       <h2 className="text-lg text-tertiary md:text-xl gap-2 flex-col flex md:ml-0 font-light">
         <span>
           We teach you everything we believe and practice in software
-          development. We deliver code to production every day for more than 15
-          years and we are part of a profitable software development{" "}
+          development. We have delivered code to production every day for more
+          than 15 years and we are part of a profitable software
+          development{" "}
           <a
             className="text-lime-500 font-normal"
             href="https://quave.dev"
@@ -350,15 +351,19 @@ export const Home = () => (
       </ItemWithTitle>
 
       <ItemWithTitle title="∙ What happens after the payment?" collapsable>
-        <p>You will get your invite to our Portal with all the content and also to our private Discord server.</p>
         <p>
-          We may also email you to understand your
-          expectations and learn more about you.
+          You will get your invite to our Portal with all the content and also
+          to our private Discord server.
+        </p>
+        <p>
+          We may also email you to understand your expectations and learn more
+          about you.
         </p>
         <p>We aim to maximize the chances of success for both parties.</p>
         <p>
           Typically, a quick exchange of one or two emails is enough, so don't
-          worry about this process. In many cases it's not even necessary as you will join our Discord and introduce yourself there.
+          worry about this process. In many cases it's not even necessary as you
+          will join our Discord and introduce yourself there.
         </p>
         <p>
           If, for any reason, we decide not to proceed, a full refund will be
