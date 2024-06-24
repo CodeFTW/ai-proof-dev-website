@@ -48,8 +48,7 @@ export const Home = () => (
         <span>
           We teach you everything we believe and practice in software
           development. We have delivered code to production every day for more
-          than 15 years and we are part of a profitable software
-          development{" "}
+          than 15 years and we are part of a profitable software development{" "}
           <a
             className="text-lime-500 font-normal"
             href="https://quave.dev"
@@ -213,12 +212,12 @@ export const Home = () => (
         <p className="flex items-center gap-2 flex-col md:flex-row justify-center md:justify-start md:mb-0 mb-6">
           <span>30 days access:</span>
           <span>
-            <span className="line-through">$100</span> $25*
+            <span className="line-through">$100</span> $50*
           </span>
           <span>
             <a
               className="text-lime-500 font-normal md:ml-8"
-              href="https://buy.stripe.com/9AQdU78ZEfD94pO8wZ"
+              href="https://buy.stripe.com/3csdSV52e3u4arK3cc"
               rel="noreferrer"
             >
               Pay now
@@ -228,12 +227,12 @@ export const Home = () => (
         <p className="flex items-center gap-2 flex-col md:flex-row justify-center md:justify-start md:mb-0 mb-6">
           <span>365 days access:</span>
           <span>
-            <span className="line-through">$600</span> $150*
+            <span className="line-through">$600</span> $300*
           </span>
           <span>
             <a
               className="text-lime-500 font-normal md:ml-2"
-              href="https://buy.stripe.com/8wM7vJ7VA8aH5tS14y"
+              href="https://buy.stripe.com/28og13dyK2q043m6op"
               rel="noreferrer"
             >
               Pay now
@@ -243,27 +242,20 @@ export const Home = () => (
         <p className="flex items-center gap-2 flex-col md:flex-row justify-center md:justify-start md:mb-0 mb-6">
           <span>Lifetime access:</span>
           <span>
-            <span className="line-through">$1,500</span> $375*
+            <span className="line-through">$1,500</span> $750*
           </span>
           <span>
             <a
               className="text-lime-500 font-normal md:ml-2"
-              href="https://buy.stripe.com/28o6rFejY4Yvf4scNh"
+              href="https://buy.stripe.com/14kaGJ0LY5CcarK5km"
               rel="noreferrer"
             >
               Pay now
             </a>
           </span>
         </p>
-        <p className="mt-3">
-          * 75% discount while no content is published. Content will be released
-          weekly starting on March 25th 2024.
-        </p>
-        <p>
-          At least 16 contents will be publish in the next 4 months (until July
-          31st 2024). All prices in this page are in USD but you can also pay in
-          R$.
-        </p>
+        <p className="mt-3">* 50% discount for limited time.</p>
+        <p>All prices in this page are in USD but you can also pay in R$.</p>
         <p>Payment links will go to Quave's Stripe account.</p>
       </h2>
     </div>
@@ -316,8 +308,8 @@ export const Home = () => (
           You are free to buy whenever you want. You are also free not to buy :)
         </p>
         <p>
-          The benefit of buying right now is the 75% discount. It will be gone
-          once we start to publish the content.
+          The benefit of buying right now is the 50% discount. It will be gone
+          once we have multiple courses published.
         </p>
       </ItemWithTitle>
       <ItemWithTitle title="∙ Are the live group calls recorded?" collapsable>
