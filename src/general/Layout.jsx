@@ -1,9 +1,20 @@
 import { ErrorBoundary } from "react-error-boundary";
 import { ErrorFallback } from "../components/ErrorFallback.jsx";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { RoutePaths } from "./RoutePaths.jsx";
+import { useEffect } from "react";
+
+const useScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+  }, [pathname]);
+};
 
 export const Layout = ({ children }) => {
+  useScrollToTop();
   return (
     <div className="flex md:w-[80%] flex-col mt-4">
       <h2 className="text-4xl font-extrabold text-secondary text-center md:text-4xl gap-4 flex-col flex">
@@ -26,36 +37,36 @@ export const Layout = ({ children }) => {
             </a>
             . All rights reserved.
           </p>
-            <ul className="flex items-center gap-2 pb-4">
-                <li>
-                    <Link
-                        to={RoutePaths.HOME}
-                        className="text-small hover:text-primary-300"
-                    >
-                        Home
-                    </Link>
-                </li>
-                <li>|</li>
-                <li>
-                    <Link
-                        to={RoutePaths.TERMS_OF_USE}
-                        className="text-small hover:text-primary-300"
-                    >
-                        Terms of Use
-                    </Link>
-                </li>
-                <li>|</li>
-                <li>
-                    <a
-                        className="text-small hover:text-primary-300"
-                        href="https://twitter.com/aiProofDev"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        Twitter
-                    </a>
-                </li>
-            </ul>
+          <ul className="flex items-center gap-2 pb-4">
+            <li>
+              <Link
+                to={RoutePaths.HOME}
+                className="text-small hover:text-primary-300"
+              >
+                Home
+              </Link>
+            </li>
+            <li>|</li>
+            <li>
+              <Link
+                to={RoutePaths.TERMS_OF_USE}
+                className="text-small hover:text-primary-300"
+              >
+                Terms of Use
+              </Link>
+            </li>
+            <li>|</li>
+            <li>
+              <a
+                className="text-small hover:text-primary-300"
+                href="https://twitter.com/aiProofDev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Twitter
+              </a>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>
