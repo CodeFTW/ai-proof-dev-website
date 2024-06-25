@@ -273,8 +273,7 @@ export const Home = () => (
           page.
         </p>
         <p>
-          We publish new content weekly (starting on March 25th 2024) on our
-          closed platform only for paid members.
+          We publish new content weekly on our closed platform only for paid members.
         </p>
       </ItemWithTitle>
       <ItemWithTitle
