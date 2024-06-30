@@ -217,7 +217,7 @@ export const Home = () => (
           <span>
             <a
               className="text-lime-500 font-normal md:ml-8"
-              href="https://buy.stripe.com/3csdSV52e3u4arK3cc"
+              href="https://buy.stripe.com/cN25mp0LYe8I9nG147?prefilled_promo_code=OFF50"
               rel="noreferrer"
             >
               Pay now
@@ -232,7 +232,7 @@ export const Home = () => (
           <span>
             <a
               className="text-lime-500 font-normal md:ml-2"
-              href="https://buy.stripe.com/28og13dyK2q043m6op"
+              href="https://buy.stripe.com/3cs6qtgKW9Ss0RadQU?prefilled_promo_code=OFF50"
               rel="noreferrer"
             >
               Pay now
@@ -247,7 +247,7 @@ export const Home = () => (
           <span>
             <a
               className="text-lime-500 font-normal md:ml-2"
-              href="https://buy.stripe.com/14kaGJ0LY5CcarK5km"
+              href="https://buy.stripe.com/bIYcORamy4y88jC6ot?prefilled_promo_code=OFF50"
               rel="noreferrer"
             >
               Pay now
