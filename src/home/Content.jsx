@@ -43,7 +43,7 @@ const CourseSection = ({ title, lessons }) => {
               key={index}
               className="flex items-center rounded p-2 hover:bg-primary-100"
             >
-              <label className="ml-3 cursor-pointer text-sm">{lesson}</label>
+              <label className="ml-3 text-sm cursor-text">{lesson}</label>
             </li>
           ))}
         </ul>
